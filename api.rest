@@ -1,0 +1,9 @@
+POST http://localhost:5000/messages/new
+Content-Type: application/json
+
+{
+  "message": "realtime",
+  "name": "Kevin Luo",
+  "timeStamp": "timestamp",
+  "received": false
+}
